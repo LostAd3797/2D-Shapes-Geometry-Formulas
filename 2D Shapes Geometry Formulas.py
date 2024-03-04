@@ -22,6 +22,7 @@ elif user == "3":
     area = float(input("Enter a number for area of a square:"))
     Area_of_a_Sqruare = area **2
     print("The area of a square is",Area_of_a_Sqruare)
+elif 
 
 
 
