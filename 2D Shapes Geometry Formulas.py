@@ -21,8 +21,8 @@ elif user == "2":
     print("The Perimeter of a Rectangle is",Perimeter_of_a_Rectangle)
 elif user == "3":
     area = float(input("Enter a number for area of a square:"))
-    Area_of_a_Sqruare = area **2
-    print("The area of a square is",Area_of_a_Sqruare)
+    Area_of_a_Square = area **2
+    print("The area of a square is",Area_of_a_Square)
 elif user == "4":
     length= float(input("Enter the length of rectangle:"))
     width= float(input("Enter the width of a rectangle:"))
@@ -45,8 +45,8 @@ elif user == "7":
     print("The area of the circle is",round(Area_of_a_circle,2))
 elif user == "8":
     radius2 = float(input("Enter the radius for the circumference of the circle:"))
-    cirumference_of_the_circle= 2*math.pi*(radius2)
-    print("The circumference of the circle is",round(cirumference_of_the_circle,2))
+    cicumference_of_the_circle= 2*math.pi*(radius2)
+    print("The circumference of the circle is",round(cicumference_of_the_circle,2))
 else:
     print("Invalid choice")
 
